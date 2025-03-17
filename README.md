@@ -19,7 +19,7 @@ Tripennse is a simple and interactive trip expense tracker that helps you and yo
 ## Installation
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/tripennse.git
+   git clone https://github.com/theshivammaheshwari/tripennse.git
    cd tripennse
    ```
 2. Install dependencies:
@@ -46,5 +46,5 @@ npm run deploy
 Feel free to contribute by submitting a pull request. Ensure your changes align with the project's goals.
 
 ## License
-This project is open-source and available under the MIT License.
+This project is open-source and available under the Indian License.
 
