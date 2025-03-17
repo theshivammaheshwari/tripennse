@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/tripennse/static/css/main.963c9d73.css",
+    "main.js": "/tripennse/static/js/main.e8712c6e.js",
+    "static/js/453.ebd288e7.chunk.js": "/tripennse/static/js/453.ebd288e7.chunk.js",
+    "index.html": "/tripennse/index.html",
+    "main.963c9d73.css.map": "/tripennse/static/css/main.963c9d73.css.map",
+    "main.e8712c6e.js.map": "/tripennse/static/js/main.e8712c6e.js.map",
+    "453.ebd288e7.chunk.js.map": "/tripennse/static/js/453.ebd288e7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.963c9d73.css",
+    "static/js/main.e8712c6e.js"
+  ]
+}
