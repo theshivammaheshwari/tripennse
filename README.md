@@ -36,6 +36,39 @@ To deploy the project, run:
 ```sh
 npm run deploy
 ```
+### Deploying to GitHub Pages
+1. Ensure that your `package.json` has the following fields:
+
+```json
+"homepage": "https://yourusername.github.io/tripennse",
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+}
+```
+
+2. Run the following command:
+
+```sh
+npm run deploy
+```
+
+### Common Deployment Issue & Fixes
+#### `Error: spawn E2BIG`
+If you face this error while deploying:
+1. Try clearing the build folder:
+   ```sh
+   rm -rf build
+   ```
+2. Rebuild and deploy again:
+   ```sh
+   npm run build && npm run deploy
+   ```
+
+If the issue persists, make sure you have `gh-pages` installed globally:
+```sh
+npm install -g gh-pages
+```
 
 ## Technologies Used
 - React.js
